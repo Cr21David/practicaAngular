@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LoguinComponent } from './loguin/loguin.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    LoguinComponent
+  ],
   imports: [
     CommonModule
   ]
