@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+
+import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoguinComponent } from './loguin.component';
 
@@ -10,6 +11,10 @@ import { LoguinComponent } from './loguin.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    LoguinComponent
+
   ]
 })
 export class LoguinModule { }
